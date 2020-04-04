@@ -62,7 +62,6 @@ header{
 }
 .header-content h1{
     font-family: 'Roboto Mono', monospace;
-    margin-left: 2rem;
     font-size: 32x;
     color: #fff;
     -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
