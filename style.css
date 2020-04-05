@@ -65,11 +65,11 @@ header{
     padding: 0.5rem;
     font-size: 32x;
     color: #fff;
-    -webkit-animation: fadein 12s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 12s; /* Firefox < 16 */
-     -ms-animation: fadein 12s; /* Internet Explorer */
-      -o-animation: fadein 12s; /* Opera < 12.1 */
-         animation: fadein 12s;
+    -webkit-animation: fadein 20s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 20s; /* Firefox < 16 */
+     -ms-animation: fadein 20s; /* Internet Explorer */
+      -o-animation: fadein 20s; /* Opera < 12.1 */
+         animation: fadein 20s;
 }
 .header-content p{
     font-size: 1.5rem;
