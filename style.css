@@ -62,13 +62,14 @@ header{
 }
 .header-content h1{
     font-family: 'Roboto Mono', monospace;
+    padding: 0.5rem;
     font-size: 32x;
     color: #fff;
-    -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 8s; /* Firefox < 16 */
-     -ms-animation: fadein 8s; /* Internet Explorer */
-      -o-animation: fadein 8s; /* Opera < 12.1 */
-         animation: fadein 8s;
+    -webkit-animation: fadein 12s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 12s; /* Firefox < 16 */
+     -ms-animation: fadein 12s; /* Internet Explorer */
+      -o-animation: fadein 12s; /* Opera < 12.1 */
+         animation: fadein 12s;
 }
 .header-content p{
     font-size: 1.5rem;
@@ -101,15 +102,6 @@ footer ul li a{
     text-decoration: none;
     font-size: 0.8rem;
 }
-.btn{
-    background: #0c150d;
-    border-radius: 3px;
-    color:#fff;
-    font-size:1.2rem;
-    padding: 1rem 2rem;
-    text-decoration: none;
-}
-
 section{
     padding: 3rem 0;
 }
@@ -117,11 +109,17 @@ section{
     background: #333;
     color: #fff;
 }
-@media(max-width:960){
+@media(max-width:960px){
     .container{
         padding-right:3rem;
         padding-left:3rem;
     }
+    .header-content h1{
+        font-family: 'Roboto Mono', monospace;
+        padding: 0.5rem;
+        font-size: 20px;
+    }
+    
 }
 
 @keyframes fadein {
